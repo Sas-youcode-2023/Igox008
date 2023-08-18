@@ -22,7 +22,12 @@ int main() {
                 break;
         }
     }
+    
+    printf("\n---------------------------------------------------------------\n");
+    
     printf("the string after we change 'm' by 's' and vice versa become : %s\n", string);
+    
+    printf("\n---------------------------------------------------------------\n");
     
     printf("type a letter you want to search for in the string : ");
     scanf(" %c", &letter);
